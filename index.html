@@ -1,12 +1,197 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - AgroSustentável</title>
     <link rel="stylesheet" href="style.css">
-    <title>progeto agrinho 2026</title>
 </head>
 <body>
-<script src="main.js"></script>    
+
+    <div class="barra-acessibilidade">
+        <button id="btn-contraste" aria-label="Alternar Alto Contraste">🌓 Alto Contraste</button>
+        <button id="btn-voz" aria-label="Ouvir Resumo do Site">🔊 Ouvir Texto</button>
+        <button id="btn-libras" aria-label="Ativar Tradutor de Libras">🤟 Libras</button>
+    </div>
+
+    <div class="app-container">
+        
+        <header class="app-header">
+            <div class="header-top">
+                <h1 class="logo">Agrinho <span>2026</span></h1>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu">☰</button>
+            </div>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="menu-link">Início</a></li>
+                    <li><a href="#sustentabilidade" class="menu-link">Sustentabilidade</a></li>
+                    <li><a href="#tecnologia" class="menu-link">Tecnologia</a></li>
+                    <li><a href="#impactos" class="menu-link">Impactos</a></li>
+                    <li><a href="#ferramentas" class="menu-link">Ferramentas Interativas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="app-content">
+
+            <section id="home" class="secao-banner">
+                <div class="banner-img">
+                    <span class="badge">Agrinho 2026</span>
+                </div>
+                <h2>Tecnologia, Agricultura e Sustentabilidade</h2>
+                <p>Descubra como a inovação no campo está construindo um futuro mais verde e próspero para as próximas gerações.</p>
+            </section>
+
+            <section class="secao-carrossel">
+                <h3>Notícias do Campo</h3>
+                <div class="carrossel-container">
+                    <div class="carrossel-slides">
+                        <div class="slide active">
+                            <h4>Drones reduzem uso de defensivos em 40%</h4>
+                            <p>Tecnologia paranaense otimiza a pulverização e protege o solo.</p>
+                        </div>
+                        <div class="slide">
+                            <h4>Pequenos produtores adotam energia solar</h4>
+                            <p>Uso de painéis fotovoltaicos cresce na agricultura familiar neste ano.</p>
+                        </div>
+                        <div class="slide">
+                            <h4>Uso consciente da água bate recorde</h4>
+                            <p>Sensores de umidade ajudam a economizar bilhões de litros na irrigação.</p>
+                        </div>
+                    </div>
+                    <div class="carrossel-controles">
+                        <button id="prev-slide">◀</button>
+                        <button id="next-slide">▶</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secao-info">
+                <h2>O Projeto Agrinho</h2>
+                <p>O Agrinho 2026 convida estudantes a explorarem a sinergia entre o campo e a tecnologia. Nosso objetivo é mostrar que a produção de alimentos e a preservação ambiental caminham de mãos dadas utilizando a tecnologia digital.</p>
+            </section>
+
+            <section id="sustentabilidade" class="secao-cards">
+                <h2>Sustentabilidade no Campo</h2>
+                <div class="grid-cards">
+                    <div class="card">
+                        <span class="card-icon">💧</span>
+                        <h3>Uso da Água</h3>
+                        <p>Sistemas de irrigação gota a gota evitam o desperdício.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">☀️</span>
+                        <h3>Energia Limpa</h3>
+                        <p>Fazendas movidas a energia solar e biomassa reduzem o carbono.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">♻️</span>
+                        <h3>Reciclagem</h3>
+                        <p>Logística reversa para embalagens e aproveitamento de resíduos orgânicos.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tecnologia" class="secao-info bg-destaque">
+                <h2>Tecnologia de Ponta</h2>
+                <p>A agricultura moderna utiliza as ferramentas mais avançadas para monitorar a saúde das plantas e otimizar colheitas:</p>
+                <ul>
+                    <li><strong>Drones:</strong> Mapeamento aéreo em tempo real.</li>
+                    <li><strong>Sensores IoT:</strong> Medição da umidade e nutrientes do solo.</li>
+                    <li><strong>Inteligência Artificial:</strong> Previsão de pragas e análise de safra.</li>
+                </ul>
+            </section>
+
+            <section class="secao-linha-tempo">
+                <h2>Linha do Tempo: Do Arado à IA</h2>
+                <div class="linha-tempo">
+                    <div class="item-cronologico">
+                        <div class="ano">Passado</div>
+                        <div class="txt">Arquitetura de subsistência, tração animal e ferramentas manuais rudimentares.</div>
+                    </div>
+                    <div class="item-cronologico">
+                        <div class="ano">Presente</div>
+                        <div class="txt">Estufas automatizadas, silos conectados e maquinário agrícola guiado por GPS.</div>
+                    </div>
+                    <div class="item-cronologico">
+                        <div class="ano">Futuro (2026+)</div>
+                        <div class="txt">Fazendas verticais urbanas, robótica autônoma e emissão zero de carbono.</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="impactos" class="secao-info">
+                <h2>Impactos Positivos</h2>
+                <p>Ganho de produtividade para o <strong>produtor</strong>, alimentos mais saudáveis nas <strong>cidades</strong>, conservação para o <strong>meio ambiente</strong> e fortalecimento da <strong>economia</strong> do nosso país.</p>
+            </section>
+
+            <section id="ferramentas" class="secao-ferramentas">
+                <h2>Ferramentas Interativas</h2>
+
+                <div class="bloco-interativo">
+                    <h3>Quiz do Agrinho</h3>
+                    <div id="quiz-container">
+                        <p id="quiz-pergunta">Qual tecnologia ajuda a economizar água na irrigação?</p>
+                        <button class="btn-resposta" onclick="verificarQuiz(true)">Sensores de umidade do solo</button>
+                        <button class="btn-resposta" onclick="verificarQuiz(false)">Regadores manuais abertos</button>
+                        <p id="quiz-resultado"></p>
+                    </div>
+                </div>
+
+                <div class="bloco-interativo">
+                    <h3>Calculadora de Água</h3>
+                    <p>Veja quanta água você poupa ao usar irrigação inteligente em uma pequena horta por semana:</p>
+                    <input type="number" id="input-area" placeholder="Tamanho da horta em m²">
+                    <button id="btn-calcular">Calcular Economia</button>
+                    <p id="resultado-calc"></p>
+                </div>
+
+                <div class="bloco-interativo">
+                    <h3>Mapa de Previsão do Tempo</h3>
+                    <div class="mapa-simulado">
+                        <p>📍 Região Agrícola do Paraná</p>
+                        <div class="clima-info">
+                            <span class="clima-icone">☀️</span>
+                            <span class="clima-temp">24°C</span>
+                        </div>
+                        <p class="clima-status">Condições ideais para o plantio hoje.</p>
+                    </div>
+                </div>
+
+                <div class="bloco-interativo">
+                    <h3>Pergunte ao ChatBot EcoIA</h3>
+                    <div class="chat-simulado">
+                        <input type="text" id="chat-input" placeholder="Ex: O que é drone agrícola?">
+                        <button id="chat-enviar">Perguntar</button>
+                        <p id="chat-resposta"></p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="secao-conclusao">
+                <h2>O Futuro é Agora!</h2>
+                <p>"A tecnologia nos dá as ferramentas, mas a sustentabilidade nos dá o amanhã. Juntos, semeamos inovação para colhermos um planeta vivo!"</p>
+            </section>
+
+        </main>
+
+        <footer class="app-footer">
+            <p>© 2026 Agrinho - Conectando Campo e Futuro</p>
+            <p>Desenvolvido para fins educativos.</p>
+        </footer>
+
+    </div>
+
+    <div id="janela-libras" class="libras-pop-up escondido">
+        <div class="libras-header">
+            <span>Assistente de Libras</span>
+            <button id="fechar-libras">X</button>
+        </div>
+        <p>👋 Olá! O recurso de Libras está ativado para este aplicativo mobile.</p>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
