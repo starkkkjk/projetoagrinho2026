@@ -8,6 +8,7 @@
 </head>
 <body>
 
+    <!-- BARRA DE ACESSIBILIDADE -->
     <div class="barra-acessibilidade">
         <button id="btn-contraste" aria-label="Alternar Alto Contraste">🌓 Alto Contraste</button>
         <button id="btn-voz" aria-label="Ouvir Resumo do Site">🔊 Ouvir Texto</button>
@@ -15,26 +16,27 @@
     </div>
 
     <div class="app-container">
-        
+        <!-- CABEÇALHO -->
         <header class="app-header">
             <div class="header-top">
                 <h1 class="logo">Agrinho <span>2026</span></h1>
                 <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu">☰</button>
             </div>
-            
             <nav class="nav-menu" id="nav-menu">
                 <ul>
                     <li><a href="#home" class="menu-link">Início</a></li>
                     <li><a href="#sustentabilidade" class="menu-link">Sustentabilidade</a></li>
                     <li><a href="#tecnologia" class="menu-link">Tecnologia</a></li>
                     <li><a href="#impactos" class="menu-link">Impactos</a></li>
-                    <li><a href="#ferramentas" class="menu-link">Ferramentas Interativas</a></li>
+                    <li><a href="#ferramentas" class="menu-link">Ferramentas</a></li>
                 </ul>
             </nav>
         </header>
 
+        <!-- CONTEÚDO PRINCIPAL -->
         <main class="app-content">
 
+            <!-- BANNER -->
             <section id="home" class="secao-banner">
                 <div class="banner-img">
                     <span class="badge">Agrinho 2026</span>
@@ -43,6 +45,7 @@
                 <p>Descubra como a inovação no campo está construindo um futuro mais verde e próspero para as próximas gerações.</p>
             </section>
 
+            <!-- CARROSSEL DE NOTÍCIAS -->
             <section class="secao-carrossel">
                 <h3>Notícias do Campo</h3>
                 <div class="carrossel-container">
@@ -67,11 +70,13 @@
                 </div>
             </section>
 
+            <!-- INFORMAÇÕES DO PROJETO -->
             <section class="secao-info">
                 <h2>O Projeto Agrinho</h2>
                 <p>O Agrinho 2026 convida estudantes a explorarem a sinergia entre o campo e a tecnologia. Nosso objetivo é mostrar que a produção de alimentos e a preservação ambiental caminham de mãos dadas utilizando a tecnologia digital.</p>
             </section>
 
+            <!-- CARDS DE SUSTENTABILIDADE -->
             <section id="sustentabilidade" class="secao-cards">
                 <h2>Sustentabilidade no Campo</h2>
                 <div class="grid-cards">
@@ -93,6 +98,7 @@
                 </div>
             </section>
 
+            <!-- TECNOLOGIA -->
             <section id="tecnologia" class="secao-info bg-destaque">
                 <h2>Tecnologia de Ponta</h2>
                 <p>A agricultura moderna utiliza as ferramentas mais avançadas para monitorar a saúde das plantas e otimizar colheitas:</p>
@@ -103,6 +109,7 @@
                 </ul>
             </section>
 
+            <!-- LINHA DO TEMPO -->
             <section class="secao-linha-tempo">
                 <h2>Linha do Tempo: Do Arado à IA</h2>
                 <div class="linha-tempo">
@@ -121,14 +128,17 @@
                 </div>
             </section>
 
+            <!-- IMPACTOS -->
             <section id="impactos" class="secao-info">
                 <h2>Impactos Positivos</h2>
                 <p>Ganho de produtividade para o <strong>produtor</strong>, alimentos mais saudáveis nas <strong>cidades</strong>, conservação para o <strong>meio ambiente</strong> e fortalecimento da <strong>economia</strong> do nosso país.</p>
             </section>
 
+            <!-- FERRAMENTAS INTERATIVAS -->
             <section id="ferramentas" class="secao-ferramentas">
                 <h2>Ferramentas Interativas</h2>
 
+                <!-- QUIZ -->
                 <div class="bloco-interativo">
                     <h3>Quiz do Agrinho</h3>
                     <div id="quiz-container">
@@ -139,6 +149,7 @@
                     </div>
                 </div>
 
+                <!-- CALCULADORA -->
                 <div class="bloco-interativo">
                     <h3>Calculadora de Água</h3>
                     <p>Veja quanta água você poupa ao usar irrigação inteligente em uma pequena horta por semana:</p>
@@ -147,6 +158,7 @@
                     <p id="resultado-calc"></p>
                 </div>
 
+                <!-- MAPA SIMULADO -->
                 <div class="bloco-interativo">
                     <h3>Mapa de Previsão do Tempo</h3>
                     <div class="mapa-simulado">
@@ -159,6 +171,7 @@
                     </div>
                 </div>
 
+                <!-- CHATBOT SIMULADO -->
                 <div class="bloco-interativo">
                     <h3>Pergunte ao ChatBot EcoIA</h3>
                     <div class="chat-simulado">
@@ -167,9 +180,9 @@
                         <p id="chat-resposta"></p>
                     </div>
                 </div>
-
             </section>
 
+            <!-- CONCLUSÃO -->
             <section class="secao-conclusao">
                 <h2>O Futuro é Agora!</h2>
                 <p>"A tecnologia nos dá as ferramentas, mas a sustentabilidade nos dá o amanhã. Juntos, semeamos inovação para colhermos um planeta vivo!"</p>
@@ -177,13 +190,14 @@
 
         </main>
 
+        <!-- FOOTER -->
         <footer class="app-footer">
             <p>© 2026 Agrinho - Conectando Campo e Futuro</p>
             <p>Desenvolvido para fins educativos.</p>
         </footer>
-
     </div>
 
+    <!-- POP-UP LIBRAS -->
     <div id="janela-libras" class="libras-pop-up escondido">
         <div class="libras-header">
             <span>Assistente de Libras</span>
