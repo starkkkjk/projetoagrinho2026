@@ -1,19 +1,19 @@
 /* RESET E VARIÁVEIS */
 :root {
-    --cor-principal: #2e7d32;
-    --cor-secundaria: #1565c0;
+    --cor-principal: #b9fcc7;
+    --cor-secundaria:#c59e60;
     --cor-fundo: #f4f6f8;
     --cor-card: #ffffff;
-    --cor-texto: #333333;
+    --cor-texto: #154c01;
     --cor-texto-suave: #666666;
-    --cor-botao: #43a047;
-    --cor-badge: #ffb300;
+    --cor-botao: #154c01;
+    --cor-badge: #07264c;
     --transicao: all 0.3s ease;
 }
 
 .alto-contraste {
     --cor-principal: #000000;
-    --cor-secundaria: #ffff00;
+    --cor-secundaria: #f77924;
     --cor-fundo: #121212;
     --cor-card: #000000;
     --cor-texto: #ffffff;
@@ -92,3 +92,13 @@ input, button { width: 100%; margin-top: 5px; padding: 8px; border-radius: 4px; 
 
 /* MEDIA QUERIES */
 @media (min-width: 600px) { .grid-cards { grid-template-columns: 1fr 1fr; }
+section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all .8s ease;
+}
+
+section.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}

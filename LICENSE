@@ -1,21 +1,91 @@
-MIT License
+# Resumo das Funcionalidades — Agrinho 2026
 
-Copyright (c) 2026 starkkkjk
+O projeto **Agrinho 2026 – Tecnologia, Agricultura e Sustentabilidade** é uma plataforma web educativa desenvolvida com HTML, CSS e JavaScript, focada na conscientização sobre a importância da inovação tecnológica aplicada ao agronegócio sustentável.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Principais Funcionalidades
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### Interface Responsiva
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* Design adaptável para smartphones, tablets e computadores.
+* Layout moderno com navegação intuitiva.
+* Estrutura otimizada para diferentes resoluções de tela.
+
+### Sistema de Navegação
+
+* Menu responsivo para dispositivos móveis.
+* Navegação por âncoras entre as seções do site.
+* Fechamento automático do menu após seleção de uma opção.
+
+### Recursos de Acessibilidade
+
+* Modo de Alto Contraste para melhor visualização.
+* Leitura de conteúdo por voz utilizando a API Speech Synthesis.
+* Simulação de assistente de Libras através de janela interativa.
+* Interface projetada para maior inclusão digital.
+
+### Carrossel de Notícias
+
+* Exibição dinâmica de notícias relacionadas ao agronegócio.
+* Navegação manual por botões de avançar e voltar.
+* Rotação automática das notícias em intervalos programados.
+* Transições suaves e animações visuais.
+
+### Conteúdo Educativo
+
+* Informações sobre sustentabilidade no campo.
+* Explicações sobre tecnologias agrícolas modernas.
+* Linha do tempo da evolução da agricultura.
+* Destaque para impactos positivos da inovação tecnológica.
+
+### Quiz Interativo
+
+* Sistema de perguntas e respostas.
+* Validação automática das respostas.
+* Feedback visual imediato para o usuário.
+* Incentivo ao aprendizado sobre sustentabilidade.
+
+### Calculadora de Economia de Água
+
+* Ferramenta para estimar a economia de água em hortas.
+* Entrada personalizada de área em metros quadrados.
+* Cálculo automático da economia estimada.
+* Exibição dos resultados de forma clara e educativa.
+
+### ChatBot EcoIA
+
+* Assistente virtual educativo integrado.
+* Respostas automáticas sobre:
+
+  * Agricultura sustentável;
+  * Drones agrícolas;
+  * Irrigação inteligente;
+  * Energia solar;
+  * Inteligência Artificial no campo;
+  * Projeto Agrinho.
+* Processamento simples de palavras-chave.
+* Interação amigável para estudantes e visitantes.
+
+### Sistema de Animações
+
+* Efeitos visuais ao rolar a página.
+* Animações de entrada das seções.
+* Melhor experiência de navegação e apresentação.
+
+### Personalização Visual
+
+* Uso de variáveis CSS para facilitar manutenção.
+* Alteração dinâmica de temas.
+* Identidade visual inspirada na sustentabilidade e inovação.
+
+## Tecnologias Utilizadas
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Web Speech API
+* LocalStorage
+* Intersection Observer API
+
+## Objetivo do Projeto
+
+O Agrinho 2026 tem como objetivo demonstrar como a tecnologia, a inovação e as práticas sustentáveis podem trabalhar juntas para promover uma agricultura mais eficiente, responsável e preparada para os desafios do futuro, contribuindo para a educação ambiental e tecnológica dos estudantes.
